@@ -1,0 +1,12 @@
+sudo: false
+rvm:
+  - 1.9
+  - 2.0
+  - 2.1
+  - 2.2
+  - rbx-2
+gemfile:
+  - Gemfile
+  # - gemfiles/Gemfile.representable-2.4
+before_install:
+  - gem install bundler
